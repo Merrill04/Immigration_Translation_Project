@@ -1,0 +1,15 @@
+{
+  "mode": "offline",
+  "languages": ["en", "hi"],
+  "src_lang_code": "eng_Latn",
+  "tgt_lang_code": "hin_Deva",
+  "tts_backend": "pyttsx3",
+  "asr_model": "small",
+  "asr_model_path": "./models/whisper-small",
+  "mt_model_path": "./models/nllb-200-distilled-600M",
+  "tts_rate": 150,
+  "tts_volume": 1.0,
+  "device": "auto",
+  "mt_device": "auto",
+  "tts_device": "cpu"
+}
